@@ -165,6 +165,31 @@
     }
 }
 
+@media screen and (max-width:450px){
+    .container{
+        flex-direction: column-reverse;
+        margin-top: 10%;
+    }
+
+    .container .heroImage{
+        width: 300px;
+
+        
+    }
+     .content{
+        align-items: center;
+        margin-top: 20%;
+    }
+    .container .cont{
+        align-items: center;
+        display: flex;
+        justify-content: center
+    }
+    
+    .cont .sectext{
+        font-size:40px;
+    }
+}
 
 
 
