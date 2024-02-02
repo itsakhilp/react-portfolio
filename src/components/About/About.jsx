@@ -1,6 +1,7 @@
 import React from 'react'
-import { getImageUrl } from '../../utils';
+// import { getImageUrl } from '../../utils';
 import styles from './About.module.css'
+import img from "../../assets/aaa.png"
 
 import styled, { keyframes } from 'styled-components';
 
@@ -20,10 +21,12 @@ const AnimatedSection = styled.section`
 `;
 const About = () => {
   return (
-    <AnimatedSection className={styles.container} id="about">
+    <>
+    <div className={styles.container} id="about">
+        <AnimatedSection>
         <h2 className={styles.title}>About</h2>
        <div className={styles.content}>
-       <img src="./assets/about/aaa.png" alt="About img" className={styles.aboutImg}/>
+       <img src={img} alt="About img" className={styles.aboutImg}/>
         <ul className={styles.aboutItems}>
             <li className={styles.aboutItem}>
                 <div>
@@ -33,7 +36,9 @@ const About = () => {
             </li>
         </ul>
        </div>
-    </AnimatedSection>
+       </AnimatedSection>
+    </div>
+    </>
   )
 }
 

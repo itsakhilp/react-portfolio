@@ -1,5 +1,8 @@
-import { getImageUrl } from '../../utils';
+// import { getImageUrl } from '../../utils';
 import styles from "./Contact.module.css"
+import gitIcon from "../../assets/contact/githubIcon.png"
+import linkedinIcon from "../../assets/contact/linkedinIcon.png"
+import emailIcon from "../../assets/contact/emailIcon.png"
 
 const Contact = () => {
   return (
@@ -12,15 +15,15 @@ const Contact = () => {
 
         <ul className={styles.links}>
             <li className={styles.link}>
-                <img src={getImageUrl("contact/emailIcon.png")} alt="EmailIcon"></img>
+                <img src={emailIcon} className={styles.imgg} alt="EmailIcon"></img>
                 <a href="mailto:akhilp605@gmail.com">akhilp605@gmail.com</a>
             </li>
             <li className={styles.link}>
-                <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkIcon"></img>
+                <img src={linkedinIcon} className={styles.imgg} alt="LinkIcon"></img>
                 <a href="www.linkedin.com/in/akhil-p-a55202182">linkedin/Akhil</a>
             </li>
             <li className={styles.link}>
-                <img src={getImageUrl("contact/githubIcon.png")} alt="GitIcon"></img>
+                <img className={styles.imgg} src={gitIcon}  alt="GitIcon"></img>
                 <a href="https://github.com/itsakhilp">github/itsakhilp</a>
             </li>
         </ul>

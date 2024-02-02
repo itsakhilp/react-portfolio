@@ -1,7 +1,10 @@
 import React,{useState} from 'react'
+import logo from "../../assets/logo/logo.png";
+import closeIcon from "../../assets/nav/closeIcon.png"
+import menuIcon from "../../assets/nav/menuIcon.png"
 
 import styles from "./Navbar.module.css"
-import { getImageUrl } from '../../utils'
+// import { getImageUrl } from '../../utils'
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -9,11 +12,11 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       
-        <img className='brandlogo' src="./assets/logo/logo.png" alt="LOGO" />
+        <img className='brandlogo'  src={logo}  alt="images" />
 
         <div className={styles.menu}>
             <img className={styles.menuBtn} 
-            src={menuOpen ? "./assets/nav/closeIcon.png" : "./assets/nav/menuIcon.png"}
+            src={menuOpen ? closeIcon : menuIcon}
             onClick={()=>setMenuOpen(!menuOpen)} alt="img"/>
 
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
