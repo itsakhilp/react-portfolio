@@ -35,6 +35,9 @@
     display:flex;
     align-items:center;
     gap:15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 5%;
 }
 
 .link a{
@@ -43,6 +46,7 @@
     font-size: 30px;
     font-weight:400;
     letter-spacing: 1.5px;
+    /* text-align: center; */
 }
 
 .copyryt{
@@ -120,7 +124,7 @@
     .link .imgg{
         border:1px solid rgb(122, 122, 122);
         text-align: center;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     
     .text{

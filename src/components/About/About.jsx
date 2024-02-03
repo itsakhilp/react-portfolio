@@ -24,7 +24,7 @@ const About = () => {
     <>
     <div className={styles.container} id="about">
         <AnimatedSection>
-        <h2 className={styles.title}>About</h2>
+        <h2 className={styles.title}>ABOUT</h2>
        <div className={styles.content}>
        <img src={img} alt="About img" className={styles.aboutImg}/>
         <ul className={styles.aboutItems}>

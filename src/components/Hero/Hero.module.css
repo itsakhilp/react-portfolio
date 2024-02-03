@@ -181,8 +181,10 @@
     }
     
     .container{
+        /* border: 1px solid grey; */
         flex-direction: column-reverse;
         margin-top: 10%;
+        /* padding: 10px */
     }
 
     .container .heroImage{
@@ -193,6 +195,7 @@
      .content{
         align-items: center;
         margin-top: 20%;
+        padding: 0px
     }
     .container .cont{
         align-items: center;
