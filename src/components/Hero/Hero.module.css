@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin-top: 49px;
+    margin-top: 70px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -92,7 +92,7 @@
 @media screen and (max-width:830px){
     .container{
         flex-direction: column-reverse;
-        margin-top: 10%;
+        margin-top: 30%;
     }
 
     .container .heroImage{
@@ -102,7 +102,7 @@
     }
      .content{
         align-items: center;
-        margin-top: 20%;
+        margin-top: 30%;
     }
     .container .cont{
         align-items: center;
@@ -133,7 +133,7 @@
     .container{
         /* border: 1px solid grey; */
         flex-direction: column-reverse;
-        margin-top: 10%;
+        margin-top: 35%;
         margin-bottom: 20%;
         /* padding: 10px */
     }
