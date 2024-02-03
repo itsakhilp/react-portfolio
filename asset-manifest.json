@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d46244fe.css",
+    "main.css": "/react-portfolio/static/css/main.04d7168f.css",
     "main.js": "/react-portfolio/static/js/main.b6855801.js",
     "static/js/787.cf482a7c.chunk.js": "/react-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/hero.png": "/react-portfolio/static/media/hero.f9681e1b400e976178bb.png",
@@ -28,12 +28,12 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/react-portfolio/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "static/media/roboto-greek-ext-400-normal.woff": "/react-portfolio/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "index.html": "/react-portfolio/index.html",
-    "main.d46244fe.css.map": "/react-portfolio/static/css/main.d46244fe.css.map",
+    "main.04d7168f.css.map": "/react-portfolio/static/css/main.04d7168f.css.map",
     "main.b6855801.js.map": "/react-portfolio/static/js/main.b6855801.js.map",
     "787.cf482a7c.chunk.js.map": "/react-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d46244fe.css",
+    "static/css/main.04d7168f.css",
     "static/js/main.b6855801.js"
   ]
 }
