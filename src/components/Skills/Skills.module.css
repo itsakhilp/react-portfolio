@@ -163,6 +163,7 @@ margin-top: 15px;
         /* margin-right: -100px; */
         scroll-margin-top: 100px;
         padding: 0;
+        background-color: black;
     }
 
     .content{
@@ -188,6 +189,8 @@ margin-top: 15px;
         gap: 15px; 
         margin-top: 10px;
         background-color: rgb(44, 44, 44);
+        background-color: black;
+
     }
 
     .history{
@@ -208,7 +211,7 @@ margin-top: 15px;
     }
 
     .skillImageContainer{
-        background-color: rgba(0, 0, 0, 0.781);
+        background-color: rgba(253, 253, 253, 0.212);
         border-radius: 100%;
         display: flex;
         align-items: center;

@@ -29,7 +29,7 @@
 
 .aboutImg{
     width: 35%;
-
+    
 }
 
 .aboutItems{
@@ -54,7 +54,7 @@
 
 .aboutItem:hover{
     background-size: 100% 100%;
-
+    
 }
 
 .aboutItem h3{
@@ -70,13 +70,13 @@
 @media screen and (max-width: 830px){
     .container{
         /* background-color: transparent; */
-        padding: 0;
+        padding: 30px;
         
-       
+        
     }
-
+    
     .container h2{
-            text-align: center;
+        text-align: center;
     }
     
     .content{
@@ -92,19 +92,61 @@
         text-transform: capitalize;
         text-align: left;
         
-         
+        
         
         
     }
-
-   .aboutItem h3,p{
+    
+    .aboutItem h3,p{
     text-align: center;
     justify-content:center;
     display: flex;
-   }
-    
 }
 
+}
+
+
+
+
+@media screen and (max-width: 550px){
+    .container{
+        /* background-color: transparent; */
+        padding: 0;
+        margin-top: 35%;
+        background-color: rgb(27, 27, 27);
+       
+    }
+    
+    .container h2{
+        text-align: center;
+        /* margin-top: 35% */
+
+        
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .content .aboutItems{
+        /* flex-direction: column; */
+        margin-top: 10px;
+        /* padding:%; */
+        text-transform: capitalize;
+        text-align: left;
+    }
+
+    .title{
+        color: rgb(253, 0, 0);
+        font-style: 35px;
+        font-weight: 700;
+        letter-spacing: 1.75px;
+        text-transform: uppercase;
+        margin-top: 200px;
+    }
+}
 
 
 

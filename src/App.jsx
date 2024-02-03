@@ -6,10 +6,13 @@ import About from './components/About/About'
 import Experience from './components/Experience/Experience'
 import Contact from './components/Contact/Contact'
 import Skills from './components/Skills/Skills'
+import Bg from "./components/bg/Bg"
 
 const App = () => {
-  return (
+  return (<>
     <div className={styles.App}>
+
+       <Bg/> 
       <Navbar/>
       <Hero/>
       <About/>
@@ -17,6 +20,8 @@ const App = () => {
       <Experience/>
       <Contact/>
     </div>
+    </>
+
   )
 }
 
